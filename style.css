@@ -11,6 +11,7 @@ header{
     background-image: url("img/students.jpg");
     height: 8vh;
     width: 100vw;
+    position: relative;
 }
 .navContainer{ 
     display: flex; 
@@ -38,12 +39,17 @@ header{
 .hover:hover {
     color: orange;
 }
-
-.Cuello {
-    width: auto;
-    height: 200px;
-    background-color: #ededaf;
-
+main{
+    position: relative;
+}
+main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+section{
+    text-align: center;
+}
+footer{
+    position: relative;
+    background-color: black;
 }
