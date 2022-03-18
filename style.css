@@ -38,3 +38,9 @@ header{
 .hover:hover {
     color: orange;
 }
+
+.Cuello {
+    width: auto;
+    height: 200px;
+    background-color: #ededaf;
+}
