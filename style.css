@@ -43,4 +43,7 @@ header{
     width: auto;
     height: 200px;
     background-color: #ededaf;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
