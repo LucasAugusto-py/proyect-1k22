@@ -42,14 +42,19 @@ header{
 main{
     position: relative;
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-section{
-    text-align: center;
-}
 footer{
+    
     position: relative;
     background-color: black;
+}
+
+.Cuello {
+    text-align: center;
+    background-color: aquamarine;
+    animation-name: movimiento;
+}
+@keyframes movimiento {
+    0%{ top: 0; left: 0; }
+
+    100%{ top: 100px; left: 100%;}
 }
