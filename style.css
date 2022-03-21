@@ -7,32 +7,31 @@
 hmtl{
     font-size: 62.5%;
 }
-header{
+.navContainer{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-image: url("img/students.jpg");
     height: 8vh;
     width: 100vw;
     position: relative;
 }
-.navContainer{ 
-    display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+.h1Label img{
+    height: 5rem;
+    margin-top: 20px;
 }
-.navContainer h1{
-    display: block;
-    margin-right: 50px;
-    color: antiquewhite;
+.tittle{
+    font-size: 1.5rem;
+    color: #fff;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 12px;
 }
-.navItems ul{
+.navItems{
     display: flex;
 }
-.navItems ul li{
-    display: block;
-    margin: 10px;
-    list-style: none;
-}
-.navItems ul li a{
+.navItems a{
+    align-self: center;
+    flex: auto;
     text-decoration: none;
     color: antiquewhite;
 }
